@@ -1,22 +1,5 @@
 # 無機化學
 
-## 非金屬元素與化合物
-
-### 氫 ( H )
-
-- 物理性質
-    1. 無色無味、難溶於水
-    2. 最輕、密度最小
-    3. 沸點低 ( -252.2 °C )
-- 化學性質
-    1. 可燃、不可助燃 ( 不具氧化力，但可被氧化 )
-    2. 
-
-### 鹵素 ( VIIA 族 )
-
-- 物理性質
-- 化學性質
-
 ##  金屬元素與化合物
 
 ### 鹼金屬 ( IA族、鹼金族 )
@@ -29,11 +12,11 @@
 - 熔點低 ( Li 最高: 186°C ； Fr 最低: 27°C)、比重小 ( Li、Na、K 皆小於 1 )
 - 化合物有焰色反應：Li (鮮紅)、Na (黃)、K (紫)、Rb (紫紅)、Cs (藍)
 
-​	*製備*
+*製備*
 
-​	電解熔融態的鹵化物：陰極得鹼金屬，陽極得鹵素分子
+電解熔融態的鹵化物：陰極得鹼金屬，陽極得鹵素分子
 
-> $MX(l) \rightarrow M(s) + \frac{1}{2}X_2(g)$
+>  $MX(l) \rightarrow M(s) + \frac{1}{2}X_2(g)$
 >
 > 當士法 (Downs process)：$NaCl(l) \rightarrow Na(s) + \frac{1}{2}Cl_2(g)$
 
@@ -52,7 +35,7 @@
 - $K_2O_2$、$KO_2$
 - $RbO_2$、$Cs_2O$
 
-​	*鹼金屬氧化物溶於水均呈鹼性*
+*鹼金屬氧化物溶於水均呈鹼性*
 
 > $Na_2O(s) + H_2O(l) \rightarrow 2NaOH(aq)$
 >
@@ -136,11 +119,87 @@
     1. 調味、保存食物 ( 醃製 )
     2. 工業上常用以製造 $Na$、$NaOH$、$Na_2CO_3$、$Cl_2$、$HCl$、$HClO$
 
-    
+    <img src="Chemistry/NaCl-using.png" style="zoom:60%;"/>
 
-##### NaOH
+##### NaOH  ( 苛性鈉、燒鹼 )
+
+- 製備
+
+  電解飽和濃食鹽水 ( 俗稱鹼氯工業 )。
+
+  > $2NaCl(aq) + 2H_2O \rightarrow 2NaOH(aq) + H_2(g) + Cl_2(g)$
+
+- 性質
+
+  1. 白色固體，極易溶於水
+
+  2. 其水溶液有滑膩感，呈強鹼性
+
+  3. 易吸收水分而潮解，亦可吸收 $CO_2$
+
+     > $2NaOH + CO_2 \rightarrow Na_2CO_3 + H_2O$
+
+  4. 腐蝕性強，濃溶液能腐蝕玻璃，因此不能用玻璃盛裝濃 $NaOH(aq)$
+
+  5. 與銨鹽共熱，可產生 $NH_3$
+
+     >  $NH_4Cl + NaOH \rightarrow NaCl + NH_3\uparrow +~ H_2O$
+     >
+     >  $(NH_4)_2SO_4 + 2NaOH \rightarrow Na_2SO_4 + 2NH_3\uparrow +~ 2H_2O$
+
+- 用途
+
+  1. 氫氧化鈉是實驗室中重要的強鹼試劑
+  2. 工業上可製造肥皂、紙漿、人造絲、煉鋁工業、染料工業、食品工業等
 
 ##### Na~2~CO~3~、NaHCO~3~
+
+- 別稱：
+
+  1. $Na_2CO_3$：蘇打、洗滌鹼、純鹼
+  2. $NaHCO_3$：酸式碳酸鈉、小蘇打、焙用鹼
+
+- 製備 ( 索耳末法 Solvay's process ) ( 亦稱氨鹼法 )
+
+  1. 加熱    $CaCO_3 \rightarrow CaO + CO_2$
+  2. $CaO + H_2O \rightarrow Ca(OH)_2$
+  3. $CO_2(g) + NH_3(g) + H_2O(l) \rightarrow NH_4HCO_3(aq)$
+  4. $NH_4HCO_3(aq) + NaCl(aq) \rightarrow NH_4Cl(aq) + NaHCO_3(s)$
+  5. $2NH_4Cl + Ca(OH)_2 \rightarrow CaCl_2 + 2NH_3 + 2H_2O$
+  6. 乾燥、強熱    $2NaHCO_3(s) \rightarrow Na_2CO_3(s) + CO_2(g) +  H_2O(l)$
+
+  *淨反應式 ( 原料僅為 $CaCO_3$、$NaCl$ )*
+
+  > $CaCO_3 + 2NaCl \rightarrow Na_2CO_3 + CaCl_2$
+
+- 性質
+
+  | $Na_2CO_3$                 | $NaHCO_3$                             |
+  | :------------------------- | :------------------------------------ |
+  | 白色粉末、易溶於水         | 白色固體，微溶於水                    |
+  | 鹼性較弱、無腐蝕性         | 弱鹼 ( 溶解度、鹼性較 $Na_2CO_3$ 低 ) |
+  | 遇酸產生 $CO_2$            | 受熱、遇酸產生 $CO_2$                 |
+  | 和 Ca^2+^、Mg^2+^ 產生沉澱 |                                       |
+
+- 用途
+
+  1. $Na_2CO_3$
+
+     - 用於清洗 ( 例如：水壺 )
+     - 軟化硬水
+     - 製造玻璃、紙漿、清潔劑⋯⋯等
+
+  2. $NaHCO_3$
+
+     - 作為制酸劑，中和胃酸
+
+       > $NaHCO_3 + HCl \rightarrow NaCl + CO_2 + H_2O$
+
+     - 和酒石酸氫鉀混合可成為做麵包和餅乾時所用的焙粉 ( 發粉 )，受熱產生 　$CO_2$ 使麵粉膨鬆
+
+     - 和硫酸混合可以當滅火劑
+
+       > $2NaHCO_3 + H_2SO_4 \rightarrow Na_2SO_4 + 2CO_2(g) + 2H_2O$
 
 #### 鉀 ( K )
 
