@@ -38,7 +38,7 @@ body {
   background: #f3f2ee;
 }
 #menu ul li:hover button {
-  color: #333333;
+  color: #333333 !important;
 }
 
 #doc {
