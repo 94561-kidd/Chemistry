@@ -6,6 +6,7 @@ if (urlParams.has("docname")) {
   var selected_button = document.getElementById(urlParams.get("docname"));
   selected_button.style.background = "#f3f2ee";
   selected_button.style.color = "#333333";
+  selected_button.disabled = true;
 }
 
 function changeSrc(target) {
