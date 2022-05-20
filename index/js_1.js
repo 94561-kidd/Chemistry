@@ -18,7 +18,7 @@ function changeSrc(target) {
 function selected_style() {
   document.title = "化學 • " + document.getElementById(docstr).innerHTML;
 
-  var menu_button = document.querySelector('.menu-option');
+  var menu_button = document.querySelector('button.menu-option');
   menu_button.style.background = "rgba(0, 0, 0, 0)";
   menu_button.style.color = "#fff";
   menu_button.disabled = false;
