@@ -6,5 +6,6 @@ if (urlParams.has("doc")) {
 function changeSrc(target) {
   document.getElementById("doc").src = "./" + target + ".html";
 
-  location.href="https://94561-kidd.github.io/Chemistry/index.html?doc="+target;
+  location.href =
+    "https://94561-kidd.github.io/Chemistry/index.html?doc=" + target;
 }
