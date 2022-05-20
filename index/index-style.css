@@ -42,6 +42,7 @@ body {
 }
 
 #doc {
+  background: #f3f2ee;
   border-style: none;
   position: absolute;
   width: 100%;
