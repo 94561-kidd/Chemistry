@@ -5,246 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      #content a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      #content li {
-        list-style: none;
-      }
-
-      /*
-      .h1 {
-        font-family: 微軟正黑體;
-        font-size: 16pt;
-        width: 150px;
-        height: 40px;
-        display: block;
-        text-align: center;
-        cursor: pointer;
-        line-height: 40px;
-        color: #000;
-        background-color: transparent;
-        border: 1px solid #000;
-        position: relative;
-        transition: all 0.3s linear;
-      }
-      .h1 span {
-        position: relative;
-        z-index: 1;
-      }
-      .h1::before {
-        content: "";
-        width: 0%;
-        height: 0%;
-        display: block;
-        background-color: #000;
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        transition: all 0.3s ease;
-      }
-      .h1:hover span {
-        color: #fff;
-      }
-      .h1:hover::before {
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-      }
-      */
-
-      /* 
-      // ---------- 大小與定位 ---------- 
-      #menu {
-        // 選單大小 
-        width: 600px;
-        height: 30px;
-      }
-      #menu ul {
-        // 取消ul樣式符號 
-        list-style-type: none;
-        // 重設ul邊界與留白為零 
-        margin: 0;
-        padding: 0;
-        // 內有浮動元件時，需設overflow才會自動調整大小 
-        overflow: auto;
-      }
-      #menu ul li {
-        // 利用float讓第一層li水平排列 
-        float: left;
-      }
-      #menu ul li a {
-        // 將a改為區塊元件，以便指定寬高 
-        display: block;
-        //這邊也要設float，否則IE6會以100%寬度顯示 
-        float: left;
-        // 固定高度 
-        height: 30px;
-        width: 100px;
-        text-align: center;
-      }
-      #menu ul li ul {
-        // 讓第二層ul跳脫文件流以利定位 
-        position: absolute;
-        // 固定寬度 
-        width: 100px;
-        // 避免出現捲軸 
-        overflow: visible;
-        // 讓ul與母階層li相同位置 
-        clear: left;
-        margin-top: 30px;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-      }
-      #menu ul li ul li {
-        // 覆寫繼承自第一層的浮動設定 
-        float: none;
-        text-align: center;
-      }
-      #menu ul li ul li a {
-        // 覆寫繼承自第一層的浮動設定 
-        float: none;
-        width: 100%; /* 註：display、height、padding繼承第一層的設定 
-      }
-      #menu ul li ul li ul {
-        margin-top: -30px;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 100px;
-        width: 100%;
-      }
-      #menu ul li ul li ul li {
-        // width、float繼承第二層，免設定 
-      }
-      #menu ul li ul li ul li a {
-        // width、float繼承第二層，免設定 
-      }
-      // ---------- 隱藏與顯示階層 ---------- 
-      #menu ul li ul {
-        // 預先隱藏第二層 
-        visibility: hidden;
-      }
-      #menu ul li:hover ul {
-        // 觸動第一層時，顯示第二層 
-        visibility: visible;
-      }
-      #menu ul li:hover ul li ul {
-        // 顯示第二層時，隱藏第三層，避免同時彈出 
-        visibility: hidden;
-      }
-      #menu ul li ul li:hover ul {
-        // 觸動第二層時，顯示第三層 
-        visibility: visible;
-      }
-      #menu ul li ul li:hover ul li ul {
-        // 顯示第三層時，隱藏第四層，避免同時彈出 
-        visibility: hidden;
-      }
-      #menu ul li ul li ul li:hover ul {
-        // 觸動第三層時，顯示第四層 
-        visibility: visible;
-      }
-      // ---------- 以下為美化用，非必需 ---------- 
-
-      // 預設字體 
-      #menu {
-        font-size: 12px;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      // 第一層ul背景色彩與邊框 
-      #menu ul {
-        background: #6f6f6f;
-      }
-      // 第一層a字型 
-      #menu ul li a {
-        color: #fff;
-        text-decoration: none;
-        line-height: 30px;
-      }
-      // 第二層ul背景色彩與邊框  
-      #menu ul li ul {
-        background: #efefef;
-      }
-      // 第二層a字型 
-      #menu ul li ul li a {
-        font-size: 12px;
-        color: #333333;
-        text-decoration: none;
-      }
-      // 觸動第一層li時，改變背景色 
-      #menu ul li:hover,
-      #menu ul li a:hover {
-        background: #efefef;
-      }
-      #menu ul li:hover a {
-        color: #333333;
-      }
-      // 觸動第二層以上li時改變背景色 
-      #menu ul li ul li:hover,
-      #menu ul li ul li a:hover {
-        background: #dfdfdf;
-      }
-      */
-    </style>
+    <link rel="stylesheet" type="text/css" href="./index/index-style.css" />
+    <script type="text/javascript" src="./index/js_1.js"></script>
   </head>
   <body>
     <div id="menu">
       <ul>
         <li>
-          <a href="">
-            <span>化學反應與計量</span>
-          </a>
+          <button
+            onclick="changeSrc(this.value)"
+            value="./Chemical-Reactions-and-Metrology.html"
+          >
+            化學反應與計量
+          </button>
         </li>
         <li>
-          <a href="./Inorganic-Chemistry.html">
-            <span>無機化學</span>
-          </a>
-          <ul>
-            <li>
-              <a href="./Inorganic-Chemistry.html#金屬元素與化合物">
-                <span>金屬元素與化合物</span>
-              </a>
-              <ul>
-                <li>
-                  <a href="./Inorganic-Chemistry.html#鹼金屬--ia-族-">
-                    <span>鹼金屬 ( IA 族 )</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="./Inorganic-Chemistry.html#鹼土金屬--iia-族-">
-                    <span>鹼土金屬 ( IIA 族 )</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="./Inorganic-Chemistry.html#其他">
-                    <span>其他</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="./Inorganic-Chemistry.html#過渡金屬">
-                    <span>過渡金屬</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="./Inorganic-Chemistry.html#金屬錯合物">
-                <span>金屬錯合物</span>
-              </a>
-            </li>
-            <li>
-              <a href="./Inorganic-Chemistry.html#附錄">
-                <span>附錄</span>
-              </a>
-            </li>
-          </ul>
+          <button
+            onclick="changeSrc(this.value)"
+            value="./Inorganic-Chemistry.html"
+          >
+            無機化學
+          </button>
         </li>
       </ul>
     </div>
+    <iframe id="doc" noresize="noresize" src=""></iframe>
   </body>
 </html>
