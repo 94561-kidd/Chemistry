@@ -16,10 +16,15 @@ function changeSrc(target) {
 }
 
 function selected_style() {
-  document.title = "化學 * " + document.getElementById(docstr).innerHTML;
+  document.title = "化學 • " + document.getElementById(docstr).innerHTML;
 
-  var selected_button = document.getElementById(docstr);
-  selected_button.style.background = "#f3f2ee";
-  selected_button.style.color = "#333333";
-  selected_button.disabled = true;
+  var menu_button = document.querySelector('.menu-option');
+  menu_button.style.background = "rgba(0, 0, 0, 0)";
+  menu_button.style.color = "#fff";
+  menu_button.disabled = false;
+
+  var selected_menu_button = document.getElementById(docstr);
+  selected_menu_button.style.background = "#f3f2ee";
+  selected_menu_button.style.color = "#333333";
+  selected_menu_button.disabled = true;
 }
