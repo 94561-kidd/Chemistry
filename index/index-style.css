@@ -24,6 +24,7 @@ body {
 }
 #menu ul li button {
   height: 100%;
+  width: auto;
   text-align: center;
   font-size: 18px;
 }
