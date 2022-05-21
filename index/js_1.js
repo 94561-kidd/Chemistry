@@ -9,7 +9,11 @@ if (urlParams.has("docname")) {
   selected_menu_button.style.color = "#333333";
   selected_menu_button.disabled = true;
 
-  document.title = "化學 • " + document.getElementById(docstr).innerHTML;
+  var str = document.getElementById(docstr).innerHTML;
+  while (str.indexOf("&ensp;") != -1) {
+    str = str.replace("&ensp;", "");
+  }
+  document.title = "化學 • " + str;
 }
 
 function changeSrc(target) {
@@ -33,5 +37,9 @@ function changeSrc(target) {
   selected_menu_button.style.color = "#333333";
   selected_menu_button.disabled = true;
 
-  document.title = "化學 • " + document.getElementById(target).innerHTML;
+  var str = document.getElementById(target).innerHTML;
+  while (str.indexOf("&ensp;") != -1) {
+    str = str.replace("&ensp;", "");
+  }
+  document.title = "化學 • " + str;
 }
