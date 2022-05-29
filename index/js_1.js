@@ -9,7 +9,7 @@ if (urlParams.has("docname")) {
   selected_menu_button.style.color = "#333333";
   selected_menu_button.disabled = true;
 
-  document.title = "化學 •" + document.getElementById(docstr).innerHTML;
+  document.title = `化學 •${selected_menu_button.innerHTML}`;
 }
 
 function changeSrc(target) {
@@ -33,5 +33,5 @@ function changeSrc(target) {
   selected_menu_button.style.color = "#333333";
   selected_menu_button.disabled = true;
 
-  document.title = "化學 •" + document.getElementById(target).innerHTML;
+  document.title = `化學 •${selected_menu_button.innerHTML}`;
 }
