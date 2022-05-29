@@ -110,7 +110,7 @@ graph LR
 
 ### 判定有機化合物的結構
 
-![](Organic-Chemistry/Determining-the-structure-of-organic-compounds.png)
+![](Organic-Chemistry/Determining-the-structure-of-organic-compounds.webp)
 
 ### 實驗式 ( 簡式 ) 求法
 

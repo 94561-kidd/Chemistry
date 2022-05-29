@@ -69,7 +69,7 @@
 
   > **對角線關係 (diagonal relationship)**：半徑和性質相似。
 
-  ![](Inorganic-Chemistry/diagonal-relationship.png)
+  ![](Inorganic-Chemistry/diagonal-relationship.webp)
 
 - 鹼金屬化合物主要為離子鍵，但鋰化合物的鍵結有部分的共價性。
 
@@ -118,7 +118,7 @@
   1. 調味、保存食物 ( 醃製 )
   2. 工業上常用以製造 $\ce{Na}$、$\ce{NaOH}$、$\ce{Na2CO3}$、$\ce{Cl2}$、$\ce{HCl}$、$\ce{HClO}$
 
-    <img src="Inorganic-Chemistry/NaCl-using.png" style="zoom:60%;"/>
+  <img src="Inorganic-Chemistry/NaCl-using.webp"/>
 
 #### NaOH ( 苛性鈉、燒鹼 )
 
@@ -693,7 +693,7 @@ graph LR;
   3. 製作焊條：50% Pb、50% Si
   4. 製造四乙基鉛 ( $\ce{Pb(C2H5)4}$ )，加入汽油可以緩和引擎震擊
   
-  ![](Inorganic-Chemistry/Pb-compound-equations.png)
+  ![](Inorganic-Chemistry/Pb-compound-equations.webp)
 
 #### PbO ( 密陀僧 )
 
@@ -878,7 +878,7 @@ graph LR;
 
 Cr 在空氣中自動形成 $\ce{Cr2O3}$ 的保護膜，此膜很薄、具有抗腐蝕性，且不會破壞金屬光澤，因此常用 Cr 的鍍層來裝飾鐵製物件的表面。
 
-==**_鉻鹽循環反應：_**==![鉻鹽循環反應](Inorganic-Chemistry/Cr-compound-equations.png)
+==**_鉻鹽循環反應：_**==![鉻鹽循環反應](Inorganic-Chemistry/Cr-compound-equations.webp)
 
 #### Cr~2~O~3~ ( 鉻綠 )
 
@@ -897,7 +897,7 @@ Cr 在空氣中自動形成 $\ce{Cr2O3}$ 的保護膜，此膜很薄、具有抗
 
 - $\ce{CrO4^2-}$ 為黃色，是四面體；$\ce{Cr2O7^2-}$ 為橘色，由共用一個氧原子的兩個四面體所組成
 
-  <img src="Inorganic-Chemistry/CrO4-CrO7-structure.png" style="zoom:50%;" />
+  <img src="Inorganic-Chemistry/CrO4-CrO7-structure.webp" style="zoom:50%;" />
 
 - 酸性溶液中，黃色 $\ce{Cr2O7^2-}$ 較穩定；鹼性溶液中，橘色 $\ce{CrO4^2-}$ 較穩定
 
@@ -921,7 +921,7 @@ Cr 在空氣中自動形成 $\ce{Cr2O3}$ 的保護膜，此膜很薄、具有抗
 
 - Mn 具有多種氧化態的化合物，其還原電位 ( V ) 如下
 
-  _在 25°C 下，酸性溶液中_![](Inorganic-Chemistry/Mn-ion-equation.png)
+  _在 25°C 下，酸性溶液中_![](Inorganic-Chemistry/Mn-ion-equation.webp)
 
 - $\ce{Mn^3+}$ 在酸性溶液中的自身氧化還原
 
