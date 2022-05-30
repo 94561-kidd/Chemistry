@@ -9,7 +9,7 @@ if (urlParams.has("docname")) {
   selected_menu_button.style.color = "#333333";
   selected_menu_button.disabled = true;
 
-  document.title = `${selected_menu_button.innerHTML}`;
+  document.title = selected_menu_button.innerHTML;
 }
 
 function changeSrc(target) {
@@ -26,12 +26,12 @@ function changeSrc(target) {
 
   var new_url = `/Chemistry/index.html?docname=${target}`;
   window.history.pushState(null, "", new_url);
-  document.getElementById("doc").src = "./" + target + ".html";
+  document.getElementById("doc").src = `./${target}.html`;
 
   var selected_menu_button = document.getElementById(target);
   selected_menu_button.style.background = "#f3f2ee";
   selected_menu_button.style.color = "#333333";
   selected_menu_button.disabled = true;
 
-  document.title = `${selected_menu_button.innerHTML}`;
+  document.title = selected_menu_button.innerHTML;
 }
